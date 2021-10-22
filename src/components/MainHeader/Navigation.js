@@ -11,16 +11,6 @@ export const Navigation = (props) => {
       <ul>
         {context.isLoggedIn && (
           <li>
-            <a href="/">Users</a>
-          </li>
-        )}
-        {context.isLoggedIn && (
-          <li>
-            <a href="/">Admin</a>
-          </li>
-        )}
-        {context.isLoggedIn && (
-          <li>
             <button onClick={context.onLogout}>Logout</button>
           </li>
         )}
