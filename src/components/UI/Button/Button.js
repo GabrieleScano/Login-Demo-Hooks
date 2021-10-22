@@ -1,6 +1,6 @@
 import classes from './Button.module.css'
 
-const Button = (props) => {
+export const Button = (props) => {
   return (
     <button
       type={props.type || 'button'}
@@ -12,5 +12,3 @@ const Button = (props) => {
     </button>
   )
 }
-
-export default Button

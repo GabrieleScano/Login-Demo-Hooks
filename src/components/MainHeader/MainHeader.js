@@ -1,7 +1,7 @@
-import Navigation from './Navigation'
+import {Navigation} from './Navigation'
 import classes from './MainHeader.module.css'
 
-const MainHeader = (props) => {
+export const MainHeader = (props) => {
   return (
     <header className={classes['main-header']}>
       <h1>A Typical Page</h1>
@@ -9,5 +9,3 @@ const MainHeader = (props) => {
     </header>
   )
 }
-
-export default MainHeader
