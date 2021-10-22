@@ -59,13 +59,6 @@ export const Login = (props) => {
 
   const context = useContext(AuthContext)
 
-
-  useEffect(() => {
-    return () => {
-      console.log('EFFECT CLEANUP');
-    };
-  }, [])
-
   const { isValid: emailIsValid } = emailState
   const { isValid: passwordIsValid } = passwordState
 
@@ -77,7 +70,6 @@ export const Login = (props) => {
     }, 500)
 
     return () => {
-      console.log('CLEANUP')
       clearTimeout(identifier)
     }
   }, [emailIsValid, passwordIsValid])
