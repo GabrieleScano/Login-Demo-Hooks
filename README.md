@@ -2,6 +2,10 @@
 
 Standard Hooks Demo taste (useState, UseEffect, useContext, useReducer)
 
+TRY the [DEMO](https://quiet-crag-01953.herokuapp.com/)
+
+
+Heroku puts the app to sleep after 30 minutes of inactivity. This is what makes the app slow to load. When your app's dyno is asleep, waking it up may take some time. But after the first load, it starts loading pretty fast!
 
 # Getting Started with Create React App
 
