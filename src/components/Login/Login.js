@@ -61,8 +61,6 @@ export const Login = (props) => {
 
 
   useEffect(() => {
-    console.log('EFFECT RUNNING');
-
     return () => {
       console.log('EFFECT CLEANUP');
     };
@@ -73,7 +71,6 @@ export const Login = (props) => {
 
   useEffect(() => {
     const identifier = setTimeout(() => {
-      console.log('Checking form validity!')
       setFormIsValid(
         emailIsValid && passwordIsValid
       );
