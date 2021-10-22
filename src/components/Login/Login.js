@@ -24,7 +24,6 @@ const emailReducer = (state, action) => {
   };
 };
 
-
 const passwordReducer = (state, action) => {
   if (action.type === 'USER_INPUT') {
     return {
