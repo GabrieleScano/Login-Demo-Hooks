@@ -116,8 +116,10 @@ export const Login = (props) => {
           value={emailState.value}
           onChange={emailChangeHandler}
           onBlur={validateEmailHandler}
+          autoComplete="off"
         />
         <Input
+          autoComplete="off"
           id="password"
           label="Password"
           type="password"
